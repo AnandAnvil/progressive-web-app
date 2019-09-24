@@ -1,0 +1,162 @@
+@media only screen and (max-width: 576px) {
+  .window-minimal {
+    width: 100%;
+  }
+ 
+  .window-minimal.fullScreen {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+  }
+  .vizappchat  .window-minimal.fullScreen {
+    background-color: transparent !important;
+  }
+  .window-minimal.fullScreen .custColLeft {
+    width: 100%;
+  }
+
+  .window-minimal.fullScreen .custColRight {
+    width: 100%;
+  }
+
+  .window-minimal.fullScreen .custColLeft,
+  .window-minimal.fullScreen .custColLeft header {
+    border-top-right-radius: 12px;
+  }
+.vizappchat .window-minimal.fullScreen .custColLeft,
+.vizappchat .window-minimal.fullScreen .custColLeft header {
+    border-top-right-radius: 5px;
+  }
+  .device .window-minimal.fullScreen .custColLeft,
+  .device .window-minimal.fullScreen .custColLeft header {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .window-minimal.fullScreen .custColRight,
+  .window-minimal.fullScreen .custColRight footer {
+    border-bottom-left-radius: 12px;
+  }
+
+  .window-minimal.fullScreen .errorMessage {
+    border-top-right-radius: 0px;
+  }
+     .window-minimal .msgBody {
+    height: calc(100vh - 170px);
+  }
+  .vizappchat .window-minimal .msgBody {
+    height: calc(100vh - 153px);
+  }
+  .device .window-minimal .msgBody {
+    height: calc(100% - 90px);
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .window-minimal {
+    width: 65%;
+  }
+
+  .window-minimal.fullScreen {
+    width: 100%;
+    right: 0;
+    display: block;
+    background-color: #fff;
+  }
+
+  .window-minimal.fullScreen .custColLeft {
+    width: 100%;
+  }
+
+  .window-minimal.fullScreen .custColRight {
+    width: 100%;
+  }
+
+  .window-minimal.fullScreen .custColLeft,
+  .window-minimal.fullScreen .custColLeft header {
+    border-top-right-radius: 12px;
+  }
+
+  .window-minimal.fullScreen .custColRight,
+  .window-minimal.fullScreen .custColRight footer {
+    border-bottom-left-radius: 12px;
+  }
+  .window-minimal .msgBody {
+    height: calc(100vh - 200px);
+  }
+  .device .window-minimal.fullScreen .custColLeft {
+     border-top-right-radius: 0px;
+     border-top-left-radius: 0px;
+  }
+  .device .window-minimal .msgBody {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .device .window-minimal .msgBody {
+    height: calc(100vh - 166px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .window-minimal {
+    width: 50%;
+  }
+  .window-minimal.fullScreen {
+    width: 100%;
+  }
+  .window-minimal.fullScreen .custColLeft {
+    width: 34%;
+  }
+  .window-minimal.fullScreen .custColRight {
+    width: 66%;
+    height: calc(100%);
+  }
+  /*.window-minimal header section .chatActionIcons span#panicButton {
+    right: 50px;
+  }*/
+  .device .window-minimal.fullScreen .custColLeft {
+    width: 100%;
+    border-top-left-radius: 0px;
+  }
+  .device .window-minimal.fullScreen .custColRight {
+    width: 100%;
+    border-bottom-right-radius: 0px;
+  }
+  .device .window-minimal.fullScreen {
+    display: block;
+  }
+  .device .window-minimal .msgBody {
+    height: calc(100vh - 168px);
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .window-minimal {
+    width: 41%;
+  }
+  .window-minimal.fullScreen {
+    width: 100%;
+  }
+  
+  
+  .device .window-minimal header section .chatActionIcons span {
+    right: 4px;
+  }
+
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1920px) {
+  .window-minimal.fullScreen .custColLeft {
+    width: 32%;
+  }
+  .window-minimal.fullScreen .custColRight {
+    width: 68%;
+    height: calc(100%);
+  }
+}
