@@ -1,0 +1,3 @@
+[submodule "progressive-web-app"]
+	path = progressive-web-app
+	url = ../progressive-web-app.git
